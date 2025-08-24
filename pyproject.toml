@@ -1,0 +1,13 @@
+[project]
+name = "github_mcp"
+version = "0.1.0"
+description = "Project to connect Github with and without MCP   "
+authors = [
+    { name = "Shekhar Amit", email = "shekharamit@gmail.com" }
+]
+requires_python = ">=3.13"
+dependencies = [
+    "pydantic",
+    "python-dotenv",
+    "requests",
+    ]
